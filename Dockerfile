@@ -16,7 +16,7 @@ RUN apt-get update &&\
         make i_read_and_agree_the_license_agreement &&\
         apt-get purge -y -q --auto-remove gcc make wget
 
-ADD runner.sh /usr/local/vpnserver/run.sh
+ADD run.sh /usr/local/vpnserver/run.sh
 RUN chmod 755 /usr/local/vpnserver/run.sh
 
 EXPOSE  992/tcp 1194/tcp 1194/udp 5555/tcp 500/udp 4500/udp
