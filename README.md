@@ -25,4 +25,4 @@ Keep the logs:
     docker volume create --name softether-logs
     docker run -d --net host --cap-add NET_ADMIN --name softether -v softether-logs:/var/log/vpnserver romantix74/ethervpn
 
-I prefer using [docker-compose](https://hub.docker.com/r/romantix74/ethervpn/docker-compose.yml)
+I prefer using [docker-compose](https://github.com/romantix74/ethervpn/blob/master/docker-compose.yml)
