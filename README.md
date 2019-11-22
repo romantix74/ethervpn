@@ -2,7 +2,7 @@
 
 This will deploy a fully functional [SoftEther VPN](https://www.softether.org) server as a docker image.
 
-Available on [Docker Hub](https://hub.docker.com/repository/docker/romantix74/ethervpn/).
+Available on [Docker Hub](https://hub.docker.com/r/romantix74/ethervpn).
 
 ## Download
 
@@ -25,4 +25,4 @@ Keep the logs:
     docker volume create --name softether-logs
     docker run -d --net host --cap-add NET_ADMIN --name softether -v softether-logs:/var/log/vpnserver romantix74/ethervpn
 
-I prefer using [docker-compose]
+I prefer using [docker-compose](https://hub.docker.com/r/romantix74/ethervpn/docker-compose.yml)

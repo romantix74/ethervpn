@@ -1,0 +1,20 @@
+version: '3'
+services:
+  ethervpn:
+    container_name: ethervpn
+    image:
+      romantix74/ethervpn
+    restart: always 
+    volumes: 
+      - /home/master/docker-builds/ethervpn/conf/vpn_server.config:/usr/local/vpnserver/vpn_server.config
+      - /home/master/docker-builds/ethervpn/logs/:/var/log/vpnserver
+    ports:
+      - "500:500/udp"
+      - "4500:4500/udp"
+      - "1194:1194/udp"
+      - "1701:1701/udp"
+      - "4443:443/tcp"
+      - "5555:5555/tcp"
+      - "992:992/tcp"
+    cap_add:
+      - NET_ADMIN
