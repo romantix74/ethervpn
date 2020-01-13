@@ -3,7 +3,8 @@
 FROM debian:10
 MAINTAINER Roman Alekseev <romantix74@yandex.ru>
 
-ENV VERSION v4.31-9727-beta-2019.11.18
+ENV VERSION v4.32-9731-beta-2020.01.01
+#ENV VERSION v4.31-9727-beta-2019.11.18
 WORKDIR /usr/local/vpnserver
 
 RUN apt-get update &&\
