@@ -3,7 +3,7 @@
 FROM debian:10
 MAINTAINER Roman Alekseev <romantix74@yandex.ru>
 
-ENV VERSION v4.34-9745-rtm-2020.04.05  http://www.softether-download.com/files/softether/v4.34-9745-rtm-2020.04.05-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.34-9745-rtm-2020.04.05-linux-x64-64bit.tar.gz
+ENV VERSION v4.34-9745-rtm-2020.04.05
 #ENV VERSION v4.34-9744-beta-2020.03.20
 #ENV VERSION v4.32-9731-beta-2020.01.01
 #ENV VERSION v4.31-9727-beta-2019.11.18
